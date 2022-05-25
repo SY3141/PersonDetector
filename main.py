@@ -2,6 +2,8 @@ import cv2
 import mediapipe as mp
 
 cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture('sample.mp4')
+
 mpDraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose
 pose = mpPose.Pose()
